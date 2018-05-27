@@ -19,9 +19,9 @@ https_proxy=https://localhost:8080/
 This project use [Prometheus](https://prometheus.io/) + [Cadvisor](https://github.com/google/cadvisor)+[Grafana](https://grafana.com/) to monitor the proxy docker container. The dashboard can be accessed by `http://localhost:3000/`. The login default username is `admin`, and password `foobar`.
 The page `Docker Contatiner Dashboard` is created to monitor the following of Proxy Container:
 
--Container CPU Usage
--Container Memory Usage
--Container Disk Usage
+- Container CPU Usage
+- Container Memory Usage
+- Container Disk Usage
 
 ## Usage
 Clone this Repo, and run `docker-compose up`, the following containers will start:
